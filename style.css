@@ -2,8 +2,13 @@
 
 
 body {
+    font-family: 'Pathway Gothic One', sans-serif;
     color: white;
     background-color: black;
+    background-image: url(./stars.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    
 
 }
 
@@ -12,19 +17,34 @@ body {
     padding-top: .5rem;
     padding-bottom: 5rem;
     font-size: 4rem;
+    text-shadow: 3px 2px 2px black;
 }
 
 li {
     list-style: none;
+    border: 0.25px solid gold;
+    width: 50%;
+    margin: 5rem auto;
+    background-color: black;
+    box-shadow: 20px 20px 20px black;
+
 }
 
 .title {
     text-align: center;
+    margin: 2rem auto;
+    
+    
 }
 
 .crawl {
     max-width: 500px;
-    margin: 0 auto;
+    margin: -2rem auto 4rem auto;
+    color: #feda4a;
+    letter-spacing: 3px;
+    line-height: 150%;
+    transform-origin:50% 100%;
+    transform:perspective(400px) rotateX(20deg);
     
 }
 
@@ -39,3 +59,10 @@ li {
 .release_date {
     text-align: center;
 }
+
+
+@media only screen and (max-width: 1200px) {
+    li {
+      width: 80%;
+    }
+  }
