@@ -1,0 +1,41 @@
+
+
+
+body {
+    color: white;
+    background-color: black;
+
+}
+
+.page_title {
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: 5rem;
+    font-size: 4rem;
+}
+
+li {
+    list-style: none;
+}
+
+.title {
+    text-align: center;
+}
+
+.crawl {
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
+
+.director {
+    text-align: center;
+}
+
+.producer {
+    text-align: center;
+}
+
+.release_date {
+    text-align: center;
+}
