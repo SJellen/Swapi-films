@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: StarJedi;
+    src: url(./font/Starjedi.ttf) format("truetype");
+  }
 
 
 body {
@@ -18,11 +21,14 @@ body {
     padding-bottom: 5rem;
     font-size: 4rem;
     text-shadow: 3px 2px 2px black;
+    font-family: StarJedi;
+    color: #feda4a;
 }
 
 li {
     list-style: none;
-    border: 0.25px solid #feda4a;
+    border: 1px solid #feda4a;
+    border-radius: .25rem;
     width: 50%;
     height: auto;
     margin: 5rem auto;
@@ -109,4 +115,116 @@ li {
     li {
       width: 80%;
     }
+  }
+
+
+
+@media only screen and (max-width: 700px) {
+
+    .page_title {
+        font-size: 3.25rem;
+    }
+    li {
+      width: 90%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .page_title {
+        font-size: 3rem;
+    }
+    li {
+    width: 85vw;
+    margin-left: -5%;
+    }
+    .crawl {
+        width: 80vw;
+    }
+    
+  }
+
+  @media only screen and (max-width: 450px) {
+    
+    .page_title {
+        font-size: 3rem;
+        margin-bottom: -4rem;
+    }
+   
+    .crawl {
+        margin-top: -7rem;
+        width: 75vw;
+    }
+    .title {
+        font-size: 1.75rem;
+    }
+    .buy {
+       margin-right: 1.5rem;
+    }
+
+    .stream {
+        margin-left: 1.5rem;
+    }
+    
+  }
+
+  @media only screen and (max-width: 400px) {
+    .buy {
+        margin-right: 1rem;
+     }
+     .page_title {
+        font-size: 2.5rem;
+       
+    }
+    
+    .crawl {
+        margin-top: -8rem;
+        width: 75vw;
+        font-size: 1rem;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .director {
+        font-size: 1rem;
+    }
+    .producer {
+        font-size: 1rem;
+    }
+    
+
+    
+  }
+
+  @media only screen and (max-width: 350px) {
+    .buy {
+        margin-right: 1rem;
+     }
+     .page_title {
+        font-size: 2.5rem;
+       
+    }
+    .crawl {
+        margin-top: -10rem;
+        width: 75vw;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .director {
+        font-size: .75rem;
+    }
+    .release_date {
+        font-size:  .75rem;
+    }
+    .producer {
+        font-size: .75rem;
+    }
+    li {
+        width: 90vw;
+        margin-left: -15%;
+    }
+    
+
+    
   }
