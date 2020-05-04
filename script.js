@@ -25,6 +25,10 @@ fetch(url)
                            <h3 class="director">Director:  ${film.director}</h3>
                            <h4 class="producer">Producer: ${film.producer}</h4>
                            <h4 class="release_date">Released: ${film.release_date}</h4>
+
+                         <a class="stream" href="https://www.justwatch.com/us/search?q=${film.title}">Stream</a>
+                         <a class="buy" href="https://www.amazon.com/s?k=${film.title}">Buy</a>
+                        
          `
 
 
