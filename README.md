@@ -17,7 +17,7 @@
 
 👤 **Scott Jellen**
 
-* Website: https://scottjellen.me/
+* Website: ScottJellen.com
 * Twitter: [@scottjellen](https://twitter.com/scottjellen)
 * Github: [@SJellen](https://github.com/SJellen)
 
